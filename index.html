@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mateus Gabriel - Web Developer</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon2.svg" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="logo">
+          <a href="/"
+            ><img
+              class="img-logo"
+              src="assets/img/logo.svg"
+              alt="Logo Mateus Gabriel"
+          /></a>
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li class="nav-item">
+              <a href="#sobre" class="nav-link">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projetos" class="nav-link">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contato" class="nav-link">Contato</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mobile-menu-icon">
+          <button onclick="menuShow()">
+            <img
+              class="icon-mobile"
+              src="assets/img/menu_white_36dp.svg"
+              alt=""
+            />
+          </button>
+        </div>
+      </nav>
+
+      <div class="mobile-menu">
+        <ul>
+          <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projetos" class="nav-link">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contato" class="nav-link">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section id="portifolio">
+      <div class="container">
+        <div class="sobre-header" id="sobre">
+          <div class="sobre-contexto">
+            <p class="title-service">Desenvolvedor Full-Stack</p>
+            <h4 class="title-name">Mateus Gabriel</h4>
+            <p class="title-text">Oi, sou o Mateus!</p>
+            <p class="title-text1">
+              Profissional focado em desenvolvimento web e mobile.
+            </p>
+
+            <a class="btn-curriculo" href="#">Baixar Curriculo</a>
+          </div>
+          <div class="sobre-imagem">
+            <img src="assets/img/vector_sobre.svg" alt="Vetor Sobre" />
+          </div>
+        </div>
+        <div class="sobre-meio">
+          <div class="sobre-image-mateus">
+            <img
+              src="assets/img/image_mateus.svg"
+              alt="Imagem do Mateus Gabriel"
+            />
+            <div class="imageIconsSocial">
+              <a
+                href="https://www.linkedin.com/in/mateus-gabriel-8a4a92172/"
+                target="_blank"
+                ><img
+                  src="assets/img/linkedinIcon.svg"
+                  alt="Link Linkedin Mateus"
+              /></a>
+              <a href="https://github.com/mateusgabrielsilva" target="_blank"
+                ><img src="assets/img/githubIcon.svg" alt="Link GitHub Mateus"
+              /></a>
+            </div>
+          </div>
+
+          <div class="sobre-text-mateus">
+            <h4>Sobre</h4>
+            <p>
+              Apaixonado por tecnologia desde a infância, sempre atento ao
+              funcionamento de um computador e dos softwares que nele rodam.
+            </p>
+            <p class="separar"></p>
+            <p>
+              Focado no Desenvolvimento Web e Mobile utilizando HTML, CSS,
+              JavaScript, TypeScript, React, NodeJS, React Native dentre outras
+              tecnologias que uso para desenvolver sistemas de alto nível.
+            </p>
+          </div>
+        </div>
+        <div class="minhas-skills" id="skills">
+          <h4>Minhas Skills</h4>
+          <div class="skills-icons">
+            <img src="assets/img/html5Icon.svg" alt="Icone HTML5" />
+            <img src="assets/img/css3Icon.svg" alt="Icone CSS3" />
+            <img src="assets/img/jsIcon.svg" alt="Icone JavaScript" />
+            <img src="assets/img/tsIcon.svg" alt="Icone TypeScript" />
+            <img src="assets/img/reactIcon.svg" alt="Icone ReactJS" />
+          </div>
+        </div>
+        <div class="meus-projetos" id="projetos">
+          <h4>Meus Projetos</h4>
+          <div class="card-projetos">
+            <div class="card">
+              <a href="https://www.risesoft.com.br/" target="_blank"
+                ><img src="assets/img/projeto1.png" alt="Projeto 1"
+              /></a>
+              <div class="card-text">
+                <h5>Web Site RiseSoft</h5>
+                <p>Tecnologias: HTML5, CSS, Bootstrap</p>
+              </div>
+            </div>
+            <div class="card">
+              <a
+                href="https://github.com/mateusgabrielsilva/Weather-App"
+                target="_blank"
+                ><img src="assets/img/projeto3.png" alt="Projeto 1"
+              /></a>
+              <div class="card-text">
+                <h5>Weather App</h5>
+                <p>Tecnologias: React Native, Expo</p>
+              </div>
+            </div>
+            <div class="card">
+              <a href="https://studiofabiazevedo.arq.br/" target="_blank"
+                ><img src="assets/img/projeto2.png" alt="Projeto 2"
+              /></a>
+              <div class="card-text">
+                <h5>Web Site Fabi Azevedo</h5>
+                <p>Tecnologias: HTML5, CSS, PHP</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contato" id="contato">
+          <div class="texto-contato">
+            <h4>Contato</h4>
+            <p>
+              Fique a vontade para entrar em contato comigo, será um prazer
+              atende-lo.
+            </p>
+          </div>
+          <div class="link-contato">
+            <a
+              href="https://api.whatsapp.com/send?phone=5512996751672"
+              target="_blank"
+              ><img src="assets/img/phone_icon.svg" alt="Icone Telefone" /> (12)
+              99675-1672</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>Desenvolvido por <span> Mateus Gabriel</span></p>
+      </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

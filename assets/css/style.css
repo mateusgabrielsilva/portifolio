@@ -12,19 +12,15 @@ html {
 }
  
 :target {
-  scroll-margin-top: .8em;
+  scroll-margin-top: 6rem;
 }
 
 header {
     background-color: #24252a;
     position: fixed;
-
     top: 0;
- 
     left: 0;
- 
     width: 100%;
- 
     z-index: 999px;
 }
 

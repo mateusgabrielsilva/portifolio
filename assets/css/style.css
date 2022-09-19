@@ -17,7 +17,15 @@ html {
 
 header {
     background-color: #24252a;
-    z-index: 1;
+    position: fixed;
+
+    top: 0;
+ 
+    left: 0;
+ 
+    width: 100%;
+ 
+    z-index: 999px;
 }
 
 .nav-bar {

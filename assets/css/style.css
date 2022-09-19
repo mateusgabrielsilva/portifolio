@@ -7,6 +7,14 @@
     font-family: 'DM Sans', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+ 
+:target {
+  scroll-margin-top: .8em;
+}
+
 header {
     background-color: #24252a;
     z-index: 1;
